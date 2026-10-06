@@ -1,4 +1,3 @@
-
 /* ==============================
    EduSphere - Main Stylesheet
    ============================== */
@@ -916,13 +915,10 @@ section {
   }
 }
 
-
 /* ==============================
    HOME PAGE FIX
-   Keeps existing dashboard styles unchanged
    ============================== */
 
-/* Header and navigation */
 body > header {
   position: sticky;
   top: 0;
@@ -980,7 +976,10 @@ body > header nav ul a:hover {
   color: #ffffff;
 }
 
-/* Home hero */
+/* ==============================
+   Home Hero
+   ============================== */
+
 .home-hero {
   min-height: 540px;
   padding: 70px 24px;
@@ -1056,7 +1055,10 @@ body > header nav ul a:hover {
   background: #eff6ff;
 }
 
-/* Shared home sections */
+/* ==============================
+   Shared Home Sections
+   ============================== */
+
 .about-preview,
 .courses,
 .features,
@@ -1102,7 +1104,10 @@ body > header nav ul a:hover {
   font-weight: 700;
 }
 
-/* Courses banner */
+/* ==============================
+   Courses Banner
+   ============================== */
+
 .courses-banner {
   position: relative;
   max-width: 1100px;
@@ -1136,7 +1141,10 @@ body > header nav ul a:hover {
   margin-bottom: 8px;
 }
 
-/* Course and feature cards */
+/* ==============================
+   Course and Feature Cards
+   ============================== */
+
 .course-container,
 .feature-container {
   max-width: 1200px;
@@ -1180,7 +1188,10 @@ body > header nav ul a:hover {
   font-weight: 700;
 }
 
-/* Testimonial */
+/* ==============================
+   Testimonial
+   ============================== */
+
 .testimonial-card {
   max-width: 700px;
   margin: 25px auto 0;
@@ -1202,7 +1213,10 @@ body > header nav ul a:hover {
   color: var(--secondary);
 }
 
-/* Call to action */
+/* ==============================
+   Call To Action
+   ============================== */
+
 .cta {
   background: #eff6ff;
 }
@@ -1220,7 +1234,10 @@ body > header nav ul a:hover {
   background: var(--primary-dark);
 }
 
-/* Footer */
+/* ==============================
+   Footer
+   ============================== */
+
 body > footer {
   padding: 45px 24px 18px;
   color: #cbd5e1;
@@ -1269,7 +1286,10 @@ body > footer .copyright {
   font-size: 14px;
 }
 
-/* Home page responsive */
+/* ==============================
+   Home Page Responsive
+   ============================== */
+
 @media (max-width: 900px) {
   .home-hero {
     grid-template-columns: 1fr;
@@ -1296,15 +1316,6 @@ body > footer .copyright {
 }
 
 @media (max-width: 600px) {
-  body > header nav {
-    justify-content: center;
-    padding: 14px 15px;
-  }
-
-  body > header nav ul {
-    justify-content: center;
-    gap: 14px;
-  }
 
   .home-hero {
     padding: 45px 17px;
@@ -1345,12 +1356,10 @@ body > footer .copyright {
   }
 }
 
-
 /* ==============================
    ABOUT PAGE STYLES
    ============================== */
 
-/* About hero */
 .about-hero {
   padding: 75px 24px;
   text-align: center;
@@ -1374,7 +1383,6 @@ body > footer .copyright {
   font-size: 17px;
 }
 
-/* About photo and text */
 .about-photo-section {
   max-width: 1200px;
   margin: auto;
@@ -1404,7 +1412,6 @@ body > footer .copyright {
   line-height: 1.8;
 }
 
-/* Introduction */
 .about-intro {
   padding: 65px 24px;
   text-align: center;
@@ -1425,7 +1432,6 @@ body > footer .copyright {
   color: var(--muted);
 }
 
-/* Mission and vision */
 .mission-vision {
   max-width: 1200px;
   margin: auto;
@@ -1465,7 +1471,6 @@ body > footer .copyright {
   line-height: 1.8;
 }
 
-/* Core values */
 .values {
   padding: 70px 24px;
   text-align: center;
@@ -1509,7 +1514,6 @@ body > footer .copyright {
   color: var(--muted);
 }
 
-/* Why choose us */
 .why-us {
   padding: 70px 24px;
   text-align: center;
@@ -1545,7 +1549,6 @@ body > footer .copyright {
   color: var(--primary);
 }
 
-/* About page responsive */
 @media (max-width: 900px) {
   .about-photo-section {
     grid-template-columns: 1fr;
@@ -1603,7 +1606,6 @@ body > footer .copyright {
    CONTACT PAGE STYLES
    ============================== */
 
-/* Contact image banner */
 .contact-image-banner {
   position: relative;
   max-width: 1200px;
@@ -1642,7 +1644,6 @@ body > footer .copyright {
   font-size: 17px;
 }
 
-/* Contact hero */
 .contact-hero {
   padding: 55px 24px;
   text-align: center;
@@ -1662,7 +1663,6 @@ body > footer .copyright {
   font-size: 17px;
 }
 
-/* Contact information and form layout */
 .contact-section {
   max-width: 1200px;
   margin: auto;
@@ -1686,7 +1686,6 @@ body > footer .copyright {
   margin-bottom: 22px;
 }
 
-/* Contact detail cards */
 .contact-detail {
   margin-top: 16px;
   padding: 18px 20px;
@@ -1706,7 +1705,6 @@ body > footer .copyright {
   color: var(--muted);
 }
 
-/* Contact form container */
 .contact-form-container {
   padding: 30px;
   border: 1px solid var(--border);
@@ -1773,7 +1771,6 @@ body > footer .copyright {
   transform: translateY(-2px);
 }
 
-/* Contact page responsive */
 @media (max-width: 900px) {
   .contact-image-banner {
     margin: 25px 20px;
@@ -1807,515 +1804,525 @@ body > footer .copyright {
     padding: 22px 17px;
   }
 }
+
 /* ================================
    SIGN IN PAGE
-================================ */
+   ================================ */
 
 .signin-image-banner {
-    position: relative;
-    width: min(1200px, 92%);
-    height: 300px;
-    margin: 35px auto 0;
-    overflow: hidden;
-    border-radius: 16px;
+  position: relative;
+  width: min(1200px, 92%);
+  height: 300px;
+  margin: 35px auto 0;
+  overflow: hidden;
+  border-radius: 16px;
 }
 
 .signin-image-banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .signin-image-overlay {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    color: #fff;
-    background: rgba(10, 25, 55, 0.55);
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  background: rgba(10, 25, 55, 0.55);
 }
 
 .signin-image-overlay h2 {
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 10px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .signin-image-overlay p {
-    font-size: 17px;
+  font-size: 17px;
 }
 
 .signin-section {
-    padding: 55px 20px 70px;
-    background: #f5f7fb;
+  padding: 55px 20px 70px;
+  background: #f5f7fb;
 }
 
 .signin-container {
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 38px;
-    background: #fff;
-    border-radius: 16px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 38px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
 }
 
 .signin-heading {
-    text-align: center;
-    margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .signin-heading h1 {
-    font-size: 32px;
-    font-weight: 700;
-    color: #172554;
-    margin-bottom: 8px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #172554;
+  margin-bottom: 8px;
 }
 
 .signin-heading p {
-    color: #64748b;
-    font-size: 15px;
+  color: #64748b;
+  font-size: 15px;
 }
 
 .auth-form-group {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .auth-form-group label {
-    display: block;
-    margin-bottom: 8px;
-    color: #334155;
-    font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+  color: #334155;
+  font-weight: 600;
 }
 
 .auth-form-group input {
-    width: 100%;
-    padding: 13px 14px;
-    border: 1px solid #cbd5e1;
-    border-radius: 8px;
-    outline: none;
-    font-size: 15px;
-    background: #fff;
+  width: 100%;
+  padding: 13px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+  background: #fff;
 }
 
 .auth-form-group input:focus {
-    border-color: #2563eb;
-    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
 }
 
 .signin-options {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 12px;
-    margin: 5px 0 22px;
-    font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin: 5px 0 22px;
+  font-size: 14px;
 }
 
 .remember-label {
-    display: flex;
-    align-items: center;
-    gap: 7px;
-    color: #475569;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #475569;
 }
 
 .signin-options a,
 .auth-switch a,
 .back-home a {
-    color: #2563eb;
-    font-weight: 600;
-    text-decoration: none;
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .signin-options a:hover,
 .auth-switch a:hover,
 .back-home a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .auth-submit-btn {
-    width: 100%;
-    padding: 14px;
-    border: none;
-    border-radius: 8px;
-    background: #2563eb;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background 0.2s ease;
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
 }
 
 .auth-submit-btn:hover {
-    background: #1d4ed8;
+  background: #1d4ed8;
 }
 
 .auth-switch {
-    text-align: center;
-    margin-top: 24px;
-    color: #64748b;
-    font-size: 14px;
+  text-align: center;
+  margin-top: 24px;
+  color: #64748b;
+  font-size: 14px;
 }
 
 .back-home {
-    text-align: center;
-    margin-top: 18px;
-    font-size: 14px;
+  text-align: center;
+  margin-top: 18px;
+  font-size: 14px;
 }
 
-/* Sign In responsive design */
 @media (max-width: 600px) {
-    .signin-image-banner {
-        height: 220px;
-        margin-top: 20px;
-    }
+  .signin-image-banner {
+    height: 220px;
+    margin-top: 20px;
+  }
 
-    .signin-image-overlay h2 {
-        font-size: 27px;
-    }
+  .signin-image-overlay h2 {
+    font-size: 27px;
+  }
 
-    .signin-image-overlay p {
-        font-size: 14px;
-    }
+  .signin-image-overlay p {
+    font-size: 14px;
+  }
 
-    .signin-section {
-        padding: 35px 15px 45px;
-    }
+  .signin-section {
+    padding: 35px 15px 45px;
+  }
 
-    .signin-container {
-        padding: 25px 20px;
-    }
+  .signin-container {
+    padding: 25px 20px;
+  }
 
-    .signin-heading h1 {
-        font-size: 27px;
-    }
+  .signin-heading h1 {
+    font-size: 27px;
+  }
 
-    .signin-options {
-        font-size: 13px;
-    }
+  .signin-options {
+    font-size: 13px;
+  }
 }
+
 /* ================================
    SIGN UP PAGE
-================================ */
+   ================================ */
 
 .signup-image-banner {
-    position: relative;
-    width: min(1200px, 92%);
-    height: 300px;
-    margin: 35px auto 0;
-    overflow: hidden;
-    border-radius: 16px;
+  position: relative;
+  width: min(1200px, 92%);
+  height: 300px;
+  margin: 35px auto 0;
+  overflow: hidden;
+  border-radius: 16px;
 }
 
 .signup-image-banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .signup-image-overlay {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    color: #fff;
-    background: rgba(10, 25, 55, 0.55);
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  background: rgba(10, 25, 55, 0.55);
 }
 
 .signup-image-overlay h2 {
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 10px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .signup-image-overlay p {
-    font-size: 17px;
+  font-size: 17px;
 }
 
 .signup-section {
-    padding: 55px 20px 70px;
-    background: #f5f7fb;
+  padding: 55px 20px 70px;
+  background: #f5f7fb;
 }
 
 .signup-container {
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 38px;
-    background: #fff;
-    border-radius: 16px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 38px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
 }
 
 .signup-container h1 {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 700;
-    color: #172554;
-    margin-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #172554;
+  margin-bottom: 10px;
 }
 
 .signup-container > p {
-    text-align: center;
-    color: #64748b;
-    font-size: 15px;
-    margin-bottom: 28px;
+  text-align: center;
+  color: #64748b;
+  font-size: 15px;
+  margin-bottom: 28px;
 }
 
 .signup-container .auth-form-group {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .signup-container .auth-form-group label {
-    display: block;
-    margin-bottom: 8px;
-    color: #334155;
-    font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+  color: #334155;
+  font-weight: 600;
 }
 
 .signup-container .auth-form-group input,
 .signup-container .auth-form-group select {
-    width: 100%;
-    padding: 13px 14px;
-    border: 1px solid #cbd5e1;
-    border-radius: 8px;
-    outline: none;
-    font-size: 15px;
-    background: #fff;
+  width: 100%;
+  padding: 13px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+  background: #fff;
 }
 
 .signup-container .auth-form-group input:focus,
 .signup-container .auth-form-group select:focus {
-    border-color: #2563eb;
-    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
 }
 
 .signup-submit-btn {
-    width: 100%;
-    padding: 14px;
-    border: none;
-    border-radius: 8px;
-    background: #2563eb;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background 0.2s ease;
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
 }
 
 .signup-submit-btn:hover {
-    background: #1d4ed8;
+  background: #1d4ed8;
 }
 
 .signup-switch {
-    text-align: center;
-    margin-top: 24px;
-    color: #64748b;
-    font-size: 14px;
+  text-align: center;
+  margin-top: 24px;
+  color: #64748b;
+  font-size: 14px;
 }
 
 .signup-switch a {
-    color: #2563eb;
-    font-weight: 600;
-    text-decoration: none;
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .signup-switch a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-/* Sign Up responsive design */
 @media (max-width: 600px) {
-    .signup-image-banner {
-        height: 220px;
-        margin-top: 20px;
-    }
+  .signup-image-banner {
+    height: 220px;
+    margin-top: 20px;
+  }
 
-    .signup-image-overlay h2 {
-        font-size: 27px;
-    }
+  .signup-image-overlay h2 {
+    font-size: 27px;
+  }
 
-    .signup-image-overlay p {
-        font-size: 14px;
-    }
+  .signup-image-overlay p {
+    font-size: 14px;
+  }
 
-    .signup-section {
-        padding: 35px 15px 45px;
-    }
+  .signup-section {
+    padding: 35px 15px 45px;
+  }
 
-    .signup-container {
-        padding: 25px 20px;
-    }
+  .signup-container {
+    padding: 25px 20px;
+  }
 
-    .signup-container h1 {
-        font-size: 26px;
-    }
+  .signup-container h1 {
+    font-size: 26px;
+  }
+}
+
+/* ==================================================
+   FINAL MOBILE HAMBURGER NAVIGATION
+   ================================================== */
+
+/* Main navigation used by index.html */
+.mobile-nav {
+  width: 100%;
+  min-height: 76px;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background: #ffffff;
+}
+
+/* Logo */
+.mobile-nav .logo {
+  flex-shrink: 0;
+}
+
+.mobile-nav .logo h2 {
+  color: var(--secondary);
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin: 0;
+}
+
+/* Hamburger button */
+.mobile-nav .hamburger {
+  display: none;
+  border: none;
+  background: transparent;
+  color: var(--secondary);
+  font-size: 30px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 5px;
+}
+
+/* Desktop menu */
+.mobile-nav .mobile-menu {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.mobile-nav .mobile-menu ul {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-nav .mobile-menu ul li {
+  list-style: none;
+}
+
+.mobile-nav .mobile-menu ul a {
+  color: #475569;
+  font-size: 15px;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.mobile-nav .mobile-menu ul a:hover {
+  color: var(--primary);
+}
+
+/* Desktop Sign In / Sign Up */
+.mobile-nav .auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mobile-nav .auth-buttons a {
+  display: inline-block;
+  padding: 9px 17px;
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+  color: var(--primary);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.mobile-nav .auth-buttons a:last-child {
+  color: #ffffff;
+  background: var(--primary);
+}
+
+.mobile-nav .auth-buttons a:hover {
+  background: var(--primary-dark);
+  border-color: var(--primary-dark);
+  color: #ffffff;
 }
 
 /* ==============================
-   MOBILE NAVBAR FIX
-   Keeps navbar in one row
+   Mobile Menu
    ============================== */
 
 @media (max-width: 600px) {
 
-  .nav-container {
+  .mobile-nav {
     min-height: 60px;
-    padding: 10px 12px;
-    gap: 10px;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    padding: 10px 15px;
   }
 
-  .logo {
-    font-size: 20px;
-    flex-shrink: 0;
+  .mobile-nav .logo h2 {
+    font-size: 22px;
   }
 
-  .nav-links {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 8px;
-    flex-wrap: nowrap;
-    white-space: nowrap;
-    overflow-x: auto;
-    flex: 1;
+  .mobile-nav .hamburger {
+    display: block;
+    margin-left: auto;
   }
 
-  .nav-links a {
-    font-size: 12px;
-    flex-shrink: 0;
-  }
-
-  .nav-links .nav-button {
-    padding: 6px 9px;
-  }
-
-  body > header nav {
-    min-height: 60px;
-    padding: 10px 12px;
-    flex-wrap: nowrap;
-  }
-
-  body > header nav ul {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 8px;
-    white-space: nowrap;
-    overflow-x: auto;
-  }
-
-  body > header nav ul a {
-    font-size: 12px;
-    flex-shrink: 0;
-  }
-
-  .auth-buttons {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 6px;
-    flex-shrink: 0;
-  }
-
-  .auth-buttons a {
-    padding: 6px 9px;
-    font-size: 12px;
-    white-space: nowrap;
-  }
-}
-/* =========================
-   MOBILE HAMBURGER NAV
-   ========================= */
-
-.mobile-nav {
-    width: 100%;
-    min-height: 76px;
-    padding: 12px 24px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    box-sizing: border-box;
-}
-
-.hamburger {
+  /* Hide menu until hamburger is clicked */
+  .mobile-nav .mobile-menu {
     display: none;
-    border: none;
-    background: none;
-    font-size: 28px;
-    cursor: pointer;
-}
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 20px 15px;
+    background: #ffffff;
+    border-top: 1px solid var(--border);
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.10);
+    z-index: 9999;
+  }
 
-/* Desktop */
-.mobile-menu {
+  /* Open menu */
+  .mobile-nav .mobile-menu.show {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 25px;
-}
+    gap: 18px;
+  }
 
-.mobile-menu ul {
+  .mobile-nav .mobile-menu ul {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 25px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+    gap: 15px;
+    width: 100%;
+  }
 
-/* Mobile */
-@media (max-width: 600px) {
+  .mobile-nav .mobile-menu ul a {
+    font-size: 15px;
+  }
 
-    .mobile-nav {
-        min-height: 60px;
-        padding: 10px 15px;
-    }
+  .mobile-nav .auth-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
 
-    .hamburger {
-        display: block;
-    }
-
-    .mobile-menu {
-        display: none;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        background: white;
-        padding: 20px;
-        box-sizing: border-box;
-        flex-direction: column;
-        gap: 15px;
-        z-index: 9999;
-        border-top: 1px solid #ddd;
-    }
-
-    .hamburger.active + .mobile-menu {
-        display: flex;
-    }
-
-    .mobile-menu ul {
-        flex-direction: column;
-        gap: 15px;
-        width: 100%;
-        text-align: center;
-    }
-
-    .mobile-menu .auth-buttons {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        width: 100%;
-        text-align: center;
-    }
+  .mobile-nav .auth-buttons a {
+    width: 130px;
+    text-align: center;
+  }
 }
